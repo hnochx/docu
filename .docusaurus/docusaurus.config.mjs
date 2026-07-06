@@ -4,9 +4,10 @@
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 export default {
-  "title": "My Site",
-  "tagline": "Dinosaurs are cool",
+  "title": "Noci Docu",
+  "tagline": "To write for memory",
   "favicon": "img/favicon.ico",
+  "url": "https://docu-rho.vercel.app",
   "future": {
     "v4": {
       "removeLegacyPostBuildHeadAttribute": true,
@@ -29,15 +30,14 @@ export default {
       "gitEagerVcs": true
     }
   },
-  "url": "https://your-docusaurus-site.example.com",
   "baseUrl": "/",
   "organizationName": "facebook",
   "projectName": "docusaurus",
   "onBrokenLinks": "throw",
   "i18n": {
-    "defaultLocale": "en",
+    "defaultLocale": "ko",
     "locales": [
-      "en"
+      "ko"
     ],
     "path": "i18n",
     "localeConfigs": {}

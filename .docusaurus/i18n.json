@@ -1,19 +1,19 @@
 {
-  "defaultLocale": "en",
+  "defaultLocale": "ko",
   "locales": [
-    "en"
+    "ko"
   ],
   "path": "i18n",
-  "currentLocale": "en",
+  "currentLocale": "ko",
   "localeConfigs": {
-    "en": {
-      "label": "English",
+    "ko": {
+      "label": "한국어",
       "direction": "ltr",
-      "htmlLang": "en",
+      "htmlLang": "ko",
       "calendar": "gregory",
-      "path": "en",
+      "path": "ko",
       "translate": false,
-      "url": "https://your-docusaurus-site.example.com",
+      "url": "https://docu-rho.vercel.app",
       "baseUrl": "/"
     }
   }
