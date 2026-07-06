@@ -1,8 +1,6 @@
 {
   "defaultLocale": "ko",
-  "locales": [
-    "ko"
-  ],
+  "locales": ["ko"],
   "path": "i18n",
   "currentLocale": "ko",
   "localeConfigs": {
