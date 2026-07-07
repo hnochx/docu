@@ -14,7 +14,7 @@
     "write-heading-ids": "docusaurus write-heading-ids",
     "typecheck": "tsc",
     "prepare": "husky",
-    "lint": "eslint ./src/**/*.tsx --max-warnings 0",
+    "lint": "eslint --max-warnings 0",
     "format": "prettier --write 'src/**/*.{js,jsx,ts,tsx}'"
   },
   "dependencies": {
@@ -40,7 +40,9 @@
     "eslint-config-prettier": "^10.1.8",
     "husky": "^9.1.7",
     "prettier": "^3.9.4",
-    "typescript": "~6.0.2"
+    "tslib": "^2.8.1",
+    "typescript": "~6.0.2",
+    "typescript-eslint": "^8.63.0"
   },
   "browserslist": {
     "production": [
