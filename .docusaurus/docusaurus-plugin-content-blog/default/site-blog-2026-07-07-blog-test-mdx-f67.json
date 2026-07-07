@@ -1,0 +1,37 @@
+{
+  "permalink": "/blog/first_post",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2026-07-07-blog-test.mdx",
+  "source": "@site/blog/2026-07-07-blog-test.mdx",
+  "title": "첫글!",
+  "description": "{/ truncate /}",
+  "date": "2026-07-07T00:00:00.000Z",
+  "tags": [],
+  "readingTime": 0.02,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "hyeonho",
+      "title": "FrontEnd Developer",
+      "url": "https://github.com/hnochx",
+      "image_url": "https://avatars.githubusercontent.com/u/176647346?v=4",
+      "imageURL": "https://avatars.githubusercontent.com/u/176647346?v=4",
+      "socials": {},
+      "key": null,
+      "page": null
+    }
+  ],
+  "frontMatter": {
+    "slug": "first_post",
+    "title": "첫글!",
+    "authors": [
+      {
+        "name": "hyeonho",
+        "title": "FrontEnd Developer",
+        "url": "https://github.com/hnochx",
+        "image_url": "https://avatars.githubusercontent.com/u/176647346?v=4",
+        "imageURL": "https://avatars.githubusercontent.com/u/176647346?v=4"
+      }
+    ]
+  },
+  "unlisted": false
+}

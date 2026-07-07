@@ -58,12 +58,18 @@
   "frontMatter": {
     "slug": "first-blog-post",
     "title": "First Blog Post",
-    "authors": ["slorber", "yangshun"],
-    "tags": ["hola", "docusaurus"]
+    "authors": [
+      "slorber",
+      "yangshun"
+    ],
+    "tags": [
+      "hola",
+      "docusaurus"
+    ]
   },
   "unlisted": false,
   "prevItem": {
-    "title": "Long Blog Post",
-    "permalink": "/blog/long-blog-post"
+    "title": "MDX Blog Post",
+    "permalink": "/blog/mdx-blog-post"
   }
 }

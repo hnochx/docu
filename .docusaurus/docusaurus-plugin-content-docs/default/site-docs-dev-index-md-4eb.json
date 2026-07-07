@@ -18,9 +18,13 @@
     "sidebar_position": 1,
     "slug": "/dev/"
   },
-  "sidebar": "tutorialSidebar",
+  "sidebar": "dev",
+  "previous": {
+    "title": "dev",
+    "permalink": "/docs/category/dev"
+  },
   "next": {
-    "title": "Tutorial Intro",
-    "permalink": "/docs/intro"
+    "title": "테스트입니다.",
+    "permalink": "/docs/dev/test/"
   }
 }

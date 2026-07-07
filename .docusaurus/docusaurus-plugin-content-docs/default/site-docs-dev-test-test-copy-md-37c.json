@@ -1,0 +1,43 @@
+{
+  "id": "dev/test/test copy",
+  "title": "테스트입니다2.",
+  "description": "설명란",
+  "source": "@site/docs/dev/test/test copy.md",
+  "sourceDirName": "dev/test",
+  "slug": "/dev/test/test copy",
+  "permalink": "/docs/dev/test/test copy",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/dev/test/test copy.md",
+  "tags": [
+    {
+      "inline": true,
+      "label": "test",
+      "permalink": "/docs/tags/test"
+    },
+    {
+      "inline": true,
+      "label": "테스트",
+      "permalink": "/docs/tags/테스트"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "title": "테스트입니다2.",
+    "description": "설명란",
+    "tags": [
+      "test",
+      "테스트"
+    ],
+    "date": "2026-07-07T10:00"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "테스트입니다.",
+    "permalink": "/docs/dev/test/"
+  },
+  "next": {
+    "title": "Tutorial Intro",
+    "permalink": "/docs/intro"
+  }
+}

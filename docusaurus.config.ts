@@ -6,7 +6,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Noci Docu',
-  tagline: 'To write for memory',
+  tagline: `Writing for remember \n기억하기 위해 기록합니다.`,
   favicon: 'img/favicon.ico',
   url: 'https://docu-rho.vercel.app/',
 
@@ -23,14 +23,11 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'hnochx', // Usually your GitHub org/user name.
+  projectName: 'docu', // Usually your repo name.
 
   onBrokenLinks: 'throw',
 
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'ko',
     locales: ['ko'],
@@ -57,7 +54,7 @@ const config: Config = {
           editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
+          onInlineAuthors: 'ignore',
           onUntruncatedBlogPosts: 'warn',
         },
         theme: {
@@ -74,7 +71,7 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'My Site',
+      title: 'Noci Docu',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -82,13 +79,13 @@ const config: Config = {
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          sidebarId: 'dev',
           position: 'left',
-          label: 'Tutorial',
+          label: '개발',
         },
-        { to: '/blog', label: 'Blog', position: 'left' },
+        { to: '/blog', label: '블로그', position: 'left' },
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/hnochx',
           label: 'GitHub',
           position: 'right',
         },
@@ -101,48 +98,50 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: '개발',
+              to: '/docs/dev',
+            },
+            {
+              label: '블로그',
+              to: '/blog',
             },
           ],
         },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
-            },
-          ],
-        },
+        // {
+        //   title: 'Community',
+        //   items: [
+        //     {
+        //       label: 'Stack Overflow',
+        //       href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+        //     },
+        //     {
+        //       label: 'Docusaurus',
+        //       href: 'https://docusaurus.io/ko/',
+        //     },
+        //   ],
+        // },
         {
           title: 'More',
           items: [
             {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/hnochx',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} <a href="https://github.com/hnochx">hnochx</a>.`,
     },
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
     },
+    metadata: [
+      {
+        name: 'keywords',
+        content: '현호, hnochx, hno, 프론트엔드, frontend, 개발, develop',
+      },
+    ],
   } satisfies Preset.ThemeConfig,
 };
 

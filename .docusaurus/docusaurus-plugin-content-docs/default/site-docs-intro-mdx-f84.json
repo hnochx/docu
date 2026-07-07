@@ -15,10 +15,10 @@
   "frontMatter": {
     "sidebar_position": 1
   },
-  "sidebar": "tutorialSidebar",
+  "sidebar": "dev",
   "previous": {
-    "title": "Dev",
-    "permalink": "/docs/dev/"
+    "title": "테스트입니다.",
+    "permalink": "/docs/dev/test/"
   },
   "next": {
     "title": "Tutorial - Basics",
