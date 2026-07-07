@@ -1,29 +1,41 @@
 module.exports = {
-  extends: ['@commitlint/config-conventional'],
+	extends: ["@commitlint/config-conventional"],
 
-  parserPreset: {
-    parserOpts: {
-      headerPattern: '^(?<type>.+):\\s(?<subject>.+)$',
+	parserPreset: {
+		parserOpts: {
+			headerPattern: "^(?<type>.+):\\s(?<subject>.+)$",
 
-      headerCorrespondence: ['type', 'subject'],
-    },
-  },
+			headerCorrespondence: ["type", "subject"],
+		},
+	},
 
-  rules: {
-    'subject-empty': [2, 'never'],
+	rules: {
+		"subject-empty": [2, "never"],
 
-    'subject-full-stop': [2, 'never', '.'],
+		"subject-full-stop": [2, "never", "."],
 
-    'type-case': [0],
+		"type-case": [0],
 
-    'type-empty': [2, 'never'],
+		"type-empty": [2, "never"],
 
-    'type-enum': [
-      2,
+		"type-enum": [
+			2,
 
-      'always',
+			"always",
 
-      ['Init', 'Feat', 'Chore', 'Design', 'Fix', 'Test', 'Deploy', 'Refactor', 'Rename', 'Remove', 'Comment'],
-    ],
-  },
+			[
+				"Init",
+				"Feat",
+				"Chore",
+				"Design",
+				"Fix",
+				"Test",
+				"Deploy",
+				"Refactor",
+				"Rename",
+				"Remove",
+				"Comment",
+			],
+		],
+	},
 };
