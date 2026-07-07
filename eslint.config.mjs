@@ -15,6 +15,7 @@ const compat = new FlatCompat({
 export default defineConfig([
   {
     extends: compat.extends('prettier'),
+    files: ['**/*.{js,jsx,ts,tsx}'],
 
     rules: {
       'no-var': 'error', // var 금지
